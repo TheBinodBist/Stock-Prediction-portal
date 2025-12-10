@@ -7,9 +7,9 @@ const Header = () => {
       <nav className='navbar container pt-3 pb-3'>
         <a href="" className='navbar-brand text-light'>Stock Prediction Portal</a>
         <div>
-          <Button text="log in"/>
+          <Button classname={"btn btn-outline-info"} text="log in"/>
           &nbsp;
-          <Button text="register"/>
+          <Button text="register"  classname={"btn-info"}/>
         </div>
       </nav>
     </div>

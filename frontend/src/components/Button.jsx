@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Button = ({text}) => {
+const Button = ({ text , classname}) => {
   return (
     <>
-      
-<a href="" className='btn btn-outline-info'>{text}</a>
+
+      <a href="" className={`btn ${classname}`}>{text}</a>
     </>
   )
 }
