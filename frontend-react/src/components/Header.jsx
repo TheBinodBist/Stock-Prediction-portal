@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Header = () => {
   return (
-    <div className='text-light  align-items-start'>
+    <div className=' align-items-start'>
       <nav className='navbar container pt-3 pb-3'>
         <a href="" className='navbar-brand text-light'>Stock Prediction Portal</a>
         <div>
